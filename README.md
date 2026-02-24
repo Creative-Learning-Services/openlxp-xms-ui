@@ -1,6 +1,6 @@
 # OpenLXP - Experience Management Service UI (XMS UI)
 
-The Experience Management Service is the human-facing application enabling an Experience Owner or Experience Manager to modify or augment a learning metadata record ingested by the Experience Index Service (XIS). XMS is a user interface facilitating modification and augmentation of records by learning experience owners and managers. This web application enables experience owners/managers to modify/augment experience metadata (i.e., the admin portal).
+The Experience Management Service is the human-facing application enabling an Experience Owner or Experience Manager to modify or augment a learning metadata record ingested by the Experience Index Service ([XIS](https://github.com/adlnet/ecc-openlxp-xis)). XMS UI is a user interface facilitating modification and augmentation of records by learning experience owners and managers. The Django web application [XMS](https://github.com/adlnet/ecc-openlxp-xms) enables experience owners/managers to modify/augment experience metadata via (i.e., the "admin portal") REST API. It utilizes the Django admin UI for system configuration and management.
 
 **Note: For this service to work properly you will need the XMS Backend component to accompany it.**
 
@@ -44,8 +44,6 @@ git clone https://github.com/adlnet/ecc-openlxp-xms-ui.git
 | Environment Variable            | Description                                                                      |
 | ------------------------------- | -------------------------------------------------------------------------------- |
 | NEXT_PUBLIC_XMS_BACKEND         | The endpoint for your XMS backend                                                |
-| NEXT_PUBLIC_XIS_CATALOGS_API    | This is the root API endpoint used by the application to access XIS catalogs     |
-| NEXT_PUBLIC_XIS_EXPERIENCES_API | This is the root API endpoint used by the application to access XIS experiences. |
 
 **Note: These environment variables need to be set up at build time**
 
