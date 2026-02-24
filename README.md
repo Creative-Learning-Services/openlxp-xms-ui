@@ -34,7 +34,7 @@ Or copy it into one of these folders to install it system-wide:
 ## 1. Clone the repository
 Clone the Github repository
 ```terminal
-git clone git@github.com:OpenLXP/openlxp-xms-ui.git
+git clone https://github.com/adlnet/ecc-openlxp-xms-ui.git
 ```
 
 ## 2. Set up your environment variables
@@ -161,3 +161,9 @@ All of the components in the project are unit tested and are covered by the [Jes
 [Prettier Documentation can be found here](https://prettier.io/docs/en/install.html)
 
 [Jest Documentation can be found here](https://jestjs.io/docs/en/getting-started)
+
+## Additional Documentation
+[ECC-Openlxp Wiki can be found here](https://github.com/adlnet/ecc-openlxp-xds-ui/wiki)
+
+## License
+This project uses the [Apache](http://www.apache.org/licenses/LICENSE-2.0) license.
